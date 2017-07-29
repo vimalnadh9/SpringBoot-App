@@ -8,6 +8,6 @@ import com.example.Entity.Patient;
 @Repository
 public interface PatientRepository extends CrudRepository<Patient,Long> {
 	public Patient findByEmail(String email);
-	/***public Person findUsingEmail(String email);******/
+	
 	
 }
